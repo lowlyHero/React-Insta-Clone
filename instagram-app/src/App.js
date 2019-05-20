@@ -7,9 +7,15 @@ import dummyData from './dummy-data';
 import './App.css';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
       <SearchBar />
+      <PostContainer />
+      <CommentSection />
     </div>
   );
 }

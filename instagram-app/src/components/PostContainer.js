@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 
 export class PostContainer extends Component {
   render() {
@@ -8,6 +9,10 @@ export class PostContainer extends Component {
       </div>
     )
   }
+}
+
+Comment.propTypes = {
+  
 }
 
 export default PostContainer
