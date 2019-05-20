@@ -6,11 +6,16 @@ import dummyData from './dummy-data';
 
 import './App.css';
 
-function App() {
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      dummyData: dummyData
+    };
+  }
 
 
-
-
+render () {
   return (
     <div className="App">
       <SearchBar />
@@ -18,6 +23,7 @@ function App() {
       <CommentSection />
     </div>
   );
+ }
 }
 
 export default App;

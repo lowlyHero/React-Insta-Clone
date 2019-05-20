@@ -1,18 +1,9 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types';
 
-export class PostContainer extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    )
-  }
-}
-
-Comment.propTypes = {
-  
+const PostContainer = props => {
+  return (
+<div></div>
+  );
 }
 
 export default PostContainer
