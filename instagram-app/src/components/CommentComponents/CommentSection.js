@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Comment from './Comment';
+import CommentInput from './CommentInput';
 
 export class CommentSection extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ export class CommentSection extends Component {
   render() {
     return (
       <div>
-        {/* {this.state.comments.map((comment, i) => <Comment key={i} comment={comment} />} */}
+        {this.state.comments.map((c, i) => <Comment key={i} comment={c} />)}
+        <CommentInput />
       </div>
     )
   }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Comment = props => {
     return(
@@ -6,7 +6,7 @@ const Comment = props => {
             <span>{props.comment.text}</span>
             <span>{props.comment.username}</span>
         </div>
-    );
-}
+    )
+};
 
 export default Comment; 

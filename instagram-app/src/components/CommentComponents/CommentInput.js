@@ -1,13 +1,11 @@
 import React from 'react';
 
 const CommentInput = props => {
-    return(
-        <div>
-            <form>
-                <input></input>
+    return (
+           <form>
+             <input type='text' placeholder='Add comment...' />
             </form>
-        </div>
-    )
+        )
 };
 
-export default CommentInput
+export default CommentInput;
