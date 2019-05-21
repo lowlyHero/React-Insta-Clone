@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SearchBar from './components/SearchBar';
-import PostContainer from './components/PostComponents/PostContainer';
+import SearchBar from './components/SearchBar/SearchBarContainer';
+import PostContainer from './components/PostComponents/PostsContainer';
 import dummyData from './dummy-data';
 
 import './App.css';
@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      post: dummyData,
+      post: dummyData
     };
   }
 

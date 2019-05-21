@@ -9,9 +9,9 @@ const SearchBar = () => {
       <i className='fab fa-instagram fa-2x'><span className='logo-text'> | Instagram </span></i>
       <input type ='text' placeholder ='Search'></input> 
       <div className='icon-wrapper'>
-      <i class='far fa-compass'></i>
-      <i class='far fa-heart'></i>
-      <i class='far fa-user'></i>
+        <i class='far fa-compass' />
+        <i class='far fa-heart' />
+        <i class='far fa-user' />
       </div>
     </div>
   );
