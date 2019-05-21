@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import SearchBar from './components/SearchBar';
 import PostContainer from './components/PostContainer';
 import CommentSection from './components/CommentSection';
@@ -6,14 +6,17 @@ import dummyData from './dummy-data';
 
 import './App.css';
 
-class App extends React.Component {
+class App extends Component {
   constructor() {
     super();
     this.state = {
-      dummyData: dummyData
+      post: [],
     };
   }
 
+  componentDidMount() {
+    this.setState({ post: dummyData })
+  }
 
 render () {
   return (

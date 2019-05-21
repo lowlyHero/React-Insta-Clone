@@ -1,9 +1,18 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-const PostContainer = props => {
-  return (
-<div></div>
-  );
+export class PostContainer extends Component {
+  constructor() {
+    super();
+    this.state = [];
+  }
+ 
+
+  render() {
+    return (
+      <div>{this.props.post}</div>
+    )
+  }
 }
 
 export default PostContainer

@@ -1,0 +1,15 @@
+.search-wrapper {
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.logo-text {
+    font-family: Lobster, cursive;
+}
+
+.icon-wrapper {
+    padding: 7px;
+}
