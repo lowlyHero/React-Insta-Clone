@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PostHeader from './PostHeader';
 
 
@@ -7,11 +7,11 @@ const Post = props => {
         <div>
             <PostHeader 
             username={props.post.username}
-            thumbnailUrl={props.post.thumbnalUrl}
+            thumbnailUrl={props.post.thumbnailUrl}
             />
             <div>
                 <img 
-                alt='thumbnail image'
+                alt='thumbnail'
                 className='post-img'
                 src={props.post.image}
                 />

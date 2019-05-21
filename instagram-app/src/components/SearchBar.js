@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './SearchStyles.css';
 
@@ -11,10 +11,10 @@ const SearchBar = () => {
       <div className='icon-wrapper'>
       <i class='far fa-compass'></i>
       <i class='far fa-heart'></i>
-      <i class='far fa-circle'></i>
+      <i class='far fa-user'></i>
       </div>
     </div>
   );
 }
 
-export default SearchBar
+export default SearchBar;
