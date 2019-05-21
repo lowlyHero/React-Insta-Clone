@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import Post from './Post';
 
-export class PostContainer extends Component {
-  constructor() {
-    super();
-    this.state = [];
-  }
- 
-
-  render() {
-    return (
-      <div>{this.props.post}</div>
-    )
-  }
+const PostContainer = props => {
+  return(
+    <div>
+      {/* {props.post.map(p => <Post key={p.imageUrl} post={p} />)} */}
+    </div>
+  ); 
 }
 
-export default PostContainer
+export default PostContainer;

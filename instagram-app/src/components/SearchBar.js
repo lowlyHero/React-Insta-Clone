@@ -11,7 +11,7 @@ const SearchBar = () => {
       <div className='icon-wrapper'>
       <i class='far fa-compass'></i>
       <i class='far fa-heart'></i>
-      <i class='far fa-user'></i>
+      <i class='far fa-circle'></i>
       </div>
     </div>
   );
