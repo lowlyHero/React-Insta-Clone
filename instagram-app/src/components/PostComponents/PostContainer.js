@@ -1,7 +1,7 @@
 import React from 'react'
 import Post from './Post';
 
-const PostsContainer = props => {
+const PostContainer = props => {
   return (
     <div>
       {props.data.map(d => <Post key={d.imageUrl} data={d} />)}
@@ -9,4 +9,4 @@ const PostsContainer = props => {
   )
 };
 
-export default PostsContainer;
+export default PostContainer;

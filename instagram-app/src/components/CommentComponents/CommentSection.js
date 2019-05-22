@@ -10,6 +10,10 @@ export class CommentSection extends Component {
     };
   };
 
+  addNewComment = (e) => {
+
+  }
+
   render() {
     return (
       <div>

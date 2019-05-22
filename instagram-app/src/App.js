@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SearchBar from './components/SearchBar/SearchBarContainer';
-import PostContainer from './components/PostComponents/PostsContainer';
+import PostContainer from './components/PostComponents/PostContainer';
 import dummyData from './dummy-data';
 
 import './App.css';
@@ -12,7 +12,11 @@ class App extends Component {
       data: dummyData
     };
   }
-
+  componentDidMount(){
+    // console.log(data);
+    // this.setState({ data: data.dummyData })
+  };
+ 
 render () {
   return (
     <div className='App'>
