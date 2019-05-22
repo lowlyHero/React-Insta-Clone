@@ -1,5 +1,4 @@
 import React from 'react';
-import CommentSection from './CommentSection';
 
 const CommentInput = props => {
     return (
