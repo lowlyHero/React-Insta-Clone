@@ -13,7 +13,6 @@ class App extends Component {
     };
   }
   componentDidMount(){
-    // console.log(data);
     // this.setState({ data: data.dummyData })
   };
  
