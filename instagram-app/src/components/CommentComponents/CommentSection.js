@@ -6,7 +6,8 @@ export class CommentSection extends Component {
   constructor(props) {
   super(props);
   this.state = {
-    comments: props.comments
+    comments: props.comments,
+    comment: ''
     };
   };
 
